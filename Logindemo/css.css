@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	}
+body:before{
+	content:"";
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	background-image:url(backgroung.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+	background-size:cover;
+	}

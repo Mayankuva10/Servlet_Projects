@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>LoginAction</servlet-name>
+<servlet-class>LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>LoginAction</servlet-name>
+<url-pattern>/Dom</url-pattern>
+</servlet-mapping>
+
+</web-app>
